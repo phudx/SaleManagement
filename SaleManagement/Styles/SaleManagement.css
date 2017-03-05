@@ -1,0 +1,33 @@
+﻿.logoHoangPhuc {
+    width: 60px;
+    margin-top: -17px;
+}
+
+.titleHoangPhuc {
+    padding-top: 12px;
+    font-size: 20px;
+}
+
+table#dataTables-example > thead > tr > th {
+    background: #C5CAE9;
+    color: #3F51B5;
+}
+
+.btnFunction {
+    float: right;
+    margin: -13px 0px 7px 6px !important;
+}
+
+.validate-form {
+    padding-bottom: 10px;
+    color: red;
+}
+
+.modal-body-delete {
+    position: relative;
+    padding: 15px;
+}
+
+.title-control-page {
+    margin-top: -35px;
+}

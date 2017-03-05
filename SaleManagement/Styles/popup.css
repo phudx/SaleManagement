@@ -1,0 +1,68 @@
+﻿#backgroundPopup{  
+display:none;  
+position:fixed;  
+_position:absolute; /* hack for internet explorer 6*/  
+height:100%;  
+width:100%;  
+top:0;  
+left:0;  
+background:#000000;  
+border:1px solid #cecece;  
+z-index:1;  
+}  
+
+#PopupUpdatePermission{  
+display:none;  
+position:fixed;  
+_position:absolute; /* hack for internet explorer 6*/  
+height:180px;  
+width:350px;  
+background:#FFFFFF;  
+border:2px solid #cecece;  
+z-index:2;  
+font-size:13px;  
+} 
+#popupNote{  
+display:none;  
+position:fixed;  
+_position:absolute; /* hack for internet explorer 6*/  
+height:150px;  
+width:250px;  
+background:#FFFFFF;  
+border:2px solid #cecece;  
+z-index:2;  
+font-size:13px;  
+} 
+#popupExport{  
+display:none;  
+position:fixed;  
+_position:absolute; /* hack for internet explorer 6*/  
+height:150px;  
+width:520px;  
+background:#FFFFFF;  
+border:2px solid #cecece;  
+z-index:2;  
+font-size:13px;  
+} 
+ #PopupUpdatePermission h1,#popupExport h1,#popupNote h1{  
+text-align:left;  
+color:#6FA5FD;  
+font-size:22px;  
+font-weight:700;  
+border-bottom:1px dotted #D3D3D3;  
+padding-bottom:2px;  
+margin-bottom:20px;  
+}  
+#PopupUpdatePermissionClose,#popupExportClose,#popupNoteClose{  
+font-size:14px;  
+line-height:14px;  
+vertical-align:middle;
+text-align:center;
+color:#6fa5fd;  
+font-weight:700;  
+display:block;  
+}  
+#button{  
+text-align:center;  
+margin:100px;  
+}  

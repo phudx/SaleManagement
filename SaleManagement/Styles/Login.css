@@ -1,0 +1,213 @@
+﻿body {
+    background-image: url('../../Images/PageLoad/backgrobody.jpg');
+    margin: 0;
+}
+
+#header {
+    margin-top: -2px;
+}
+
+    #header img {
+        width: 96px;
+        height: 80.8px;
+        margin-top: -23px;
+        margin-left: 8px;
+        float: left;
+    }
+
+.nameCom {
+    font-size: 20px;
+    font-family: tahoma;
+    color: #FFF;
+    padding-top: 10px;
+}
+
+#content .left {
+    background-image: url('../../Images/PageLoad/Images1.jpg');
+    background-position-x: -211px;
+    background-position-y: -54px;
+}
+
+#content .right {
+    background-image: url('../../Images/PageLoad/bh_Content.png');
+    border-radius: 0px 17px 17px 0px;
+}
+
+#content {
+    width: 1072px;
+    margin: 100px auto;
+    height:255px;
+}
+
+    #content .left, .right {
+        border-radius: 17px 0px 0px 17px;
+        float: left;
+        width: 532px;
+        height: 333px;
+    }
+
+html {
+    height: auto;
+    width: 100%;
+}
+
+#logo {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#divTitle {
+    padding-bottom: 11px;
+    text-align: center;
+    font-size: 30px;
+    color: #12499C;
+}
+
+#divUser {
+    background-image: url('../../Images/PageLoad/icon-user.png');
+    background-repeat: no-repeat;
+    height: 30px;
+}
+
+#divPass {
+    background-image: url('../../Images/PageLoad/icon-pass.png');
+    background-repeat: no-repeat;
+    height: 30px;
+}
+
+
+table#inputForm {
+    margin-left: 135px;
+    margin-top: 45px;
+    width: 264px;
+    border-spacing: 0px;
+    border-collapse: separate;
+    font-family: roboto;
+    font-size: 14px;
+    border: 0;
+}
+
+    table#inputForm tr td {
+        padding-bottom: 7px;
+        padding-top: 8px;
+    }
+
+
+        table#inputForm tr td input[type="text"], input[type="password"] {
+            width: 219px;
+            height: 29px;
+            padding: 0 2px;
+            border: none;
+            outline: none;
+            float: right;
+        }
+
+        table#inputForm tr td input[type="submit"] {
+            width: 76px;
+            height: 28px;
+            background-color: #4365A7;
+            color: white;
+            border: none;
+        }
+
+div.floatleft {
+    float: left;
+}
+
+div.floatright {
+    float: right;
+}
+
+label {
+    cursor: pointer;
+    position: relative;
+    top: 6px;
+}
+
+    label span {
+        margin-left: 22px;
+        opacity: 0.7;
+    }
+
+    label:before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 16px;
+        width: 15px;
+        content: "";
+        background-color: White;
+        border-radius: 2px;
+    }
+
+    label:hover:before {
+        border-color: #66afe9;
+    }
+
+input[type=checkbox] {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    margin: 0;
+    border: 0px solid transparent;
+    margin-top: 7px;
+}
+
+input[type="checkbox"]:checked + label:before {
+    color: black;
+    content: "\2713";
+    font-size: 16px;
+    line-height: 12px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #a4a0a0;
+    border: none;
+    margin: 0;
+}
+
+.error {
+    color: Red;
+    padding-top: 17px;
+    padding-left: 135px;
+    font-size: 11pt;
+}
+
+:-moz-placeholder {
+    color: #c9c9c9 !important;
+    font-size: 13px;
+    font-style: italic;
+    opacity: 0.1;
+}
+
+::-webkit-input-placeholder {
+    color: #ccc;
+    font-size: 13px;
+    font-style: italic;
+}
+
+:-ms-input-placeholder {
+    font-style: italic;
+}
+
+:placeholder-shown {
+    font-style: italic;
+}
+
+::-moz-placeholder {
+    font-style: italic;
+}
+
+input:-webkit-autofill {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+}
+#footer{
+    width:100%;
+    height:100px;
+    color:#FFF;
+}
+#footer>p{
+    margin-left:60%;
+}
+#footer>div.contact{
+    margin-left:69%;
+}

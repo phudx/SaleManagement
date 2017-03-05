@@ -1,0 +1,123 @@
+﻿.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+}
+.ui-widget-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #414141 repeat !important;
+    opacity: .5;
+}
+label
+.ui-dialog {
+    z-index: 101;
+    padding:0 !important;
+    margin:0 !important;
+}
+.ui-widget-content {
+    background: #FFF !important;
+    color: #000 !important;
+    margin: 7px 15px !important;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    height: 30px;
+    padding: 0 !important;
+    margin: -3px;
+}
+
+.ui-dialog-title {
+    float: left;
+    width: 90%;
+    padding-top: 7px;
+    padding-left: 15px;
+}
+
+.ui-widget {
+    font-family: Arial !important;
+    font-size: 12px !important;
+}
+
+.ui-widget-header {
+    background: #1565C0 !important;
+    color: #FFF !important;
+    font-weight: 700 !important;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+    height: 12px !important;
+    min-width: 12px !important;
+    border: none;
+    margin: -6px 0px 0 6px !important;
+    padding: 0 !important;
+}
+.ui-state-default .ui-icon{
+    background-image: url("images/ui-icons_ffffff_256x240.png") !important;
+    border: none !important;
+}
+.ui-dialog-titlebar-close:active, .ui-dialog-titlebar-close:hover,  .ui-dialog-titlebar-close:focus{
+    border: none !important;
+}
+.ui-button-icon-only .ui-button-text, .ui-button-icons-only .ui-button-text{
+    padding:0!important;
+    border: none !important;
+}
+.ui-button-icon-only {
+    box-sizing: border-box;
+    text-indent: -9999px;
+    white-space: nowrap;
+}
+.ui-state-default[title="Close"], .ui-widget-content[title="Close"] .ui-state-default[title="Close"], .ui-widget-header[title="Close"] .ui-state-default[title="Close"] {
+    border: none !important;
+    background: none!important;
+    font-weight: normal!important;
+    color: white !important;
+}
+button.ui-button {
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.ui-dialog .ui-resizable-n {
+    height: 2px;
+    top: 0;
+}
+
+.ui-resizable-n {
+    cursor: n-resize;
+    height: 7px;
+    width: 100%;
+    top: -5px;
+    left: 0;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset{
+    float:right;
+    margin-right: -15px;
+}
+.ui-resizable-handle {
+    position: absolute;
+    font-size: .1px;
+    display: block;
+    touch-action: none;
+}
+button.ui-state-default{
+    background:#337ab7!important;
+}
+.ui-dialog .ui-dialog-content{
+    position: relative;
+	border: 0;
+	padding: 0 !important;
+	background: none;
+	overflow: auto;
+}
+.ui-button-text-only .ui-button-text{
+    padding:0 !important;
+    color:#FFF !important;
+}
+
